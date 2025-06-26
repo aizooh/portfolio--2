@@ -63,12 +63,12 @@ export const SKILLS = [
     },
 ];
 
-export const WORK_EXPERIENCE = [
+export const Work_Experience = [
     {
         title: "Founder & Network Technician – Sonitech Data Connections",
         date: "Jan 2024 – Present",
         responsibilities: [
-            "Founded and run a networking service company offering home internet installations",
+            "Founded and runs a networking service company offering home internet installations",
             "Provide technical support and perform troubleshooting for network-related issues",
             "Manage client relations, on-site setup, and routine maintenance",
         ],
