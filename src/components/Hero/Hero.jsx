@@ -20,13 +20,13 @@ const Hero = () => {
       </div>
       <div>
         <div className="tech-icon"> 
-          <img src=".\assets\images\02.png" alt="one twor"/>
+          <img src=".\assets\images\css.png" alt="one twor"/>
         </div>
          <div> 
-          <img src="./assets/images/01.png" alt="one twor"/>
+          <img src=".\assets\images/01.png" alt="one twor"/>
         </div>
          <div className="tech-icon"> 
-          <img src="./assets/images/02.png" alt="one twor"/>
+          <img src=".\assets/images/02.png" alt="one twor"/>
         </div>
          <div className="tech-icon"> 
           <img src="./assets/images/02.png" alt="one twor"/>

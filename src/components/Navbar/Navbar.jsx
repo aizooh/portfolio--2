@@ -22,7 +22,7 @@ const Navbar = () => {
          <button className="contact-btn" onClick={()=>{}}>
             Hire Me</button>         
          </ul>
-         <button class="menu-btn" onClick={toogleMenu}>
+         <button className="menu-btn" onClick={toogleMenu}>
         <span 
         className={"material-symbols-outlined "}
         style={{fontSize :"1.8rem"}}>
