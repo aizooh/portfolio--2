@@ -1,42 +1,43 @@
 import React from 'react'
 import './Hero.css'
 
+import img01 from '../../assets/images/img01.png'
+import img02 from '../../assets/images/img02.png'
+import cssImg from '../../assets/images/css.png'
+import html from '../../assets/images/html.png'
+import jsImg from '../../assets/images/java script.png'
+import reactImg from '../../assets/images/react.png'
+
 const Hero = () => {
   return (
     <section className="hero-container"> 
-    <div className="hero-content"> 
-      <h2>Building Digital Experiences That Inspire  </h2>
-      <p> Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions</p>
+      <div className="hero-content"> 
+        <h2>Building Digital Experiences That Inspire</h2>
+        <p>Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions</p>
       </div>
 
       <div className="Hero-img">
         <div> 
           <div className="tech-icon">
-            <img src="./assets/images/01.png" alt="html"/>
+            <img src={html} alt="html"/>
           </div>
-          <img src="./assets/images/02.png" alt="ondsdse"/>
+          <img src={img02} alt="icon 02"/>
         </div>
-
       </div>
       <div>
         <div className="tech-icon"> 
-          <img src=".\assets\images\css.png" alt="one twor"/>
+          <img src={cssImg} alt="css"/>
         </div>
-         <div> 
-          <img src=".\assets\images/01.png" alt="one twor"/>
+        <div> 
+          <img src={img01} alt="profile"/>
         </div>
-         <div className="tech-icon"> 
-          <img src=".\assets/images/02.png" alt="one twor"/>
+        <div className="tech-icon"> 
+          <img src={jsImg} alt="javascript"/>
         </div>
-         <div className="tech-icon"> 
-          <img src="./assets/images/02.png" alt="one twor"/>
+        <div className="tech-icon"> 
+          <img src={reactImg} alt="react"/>
         </div>
-         <div className="tech-icon"> 
-          <img src="./assets/images/02.png" alt="one twor"/>
-        </div>
-         
       </div>
-
     </section>
   )
 } 

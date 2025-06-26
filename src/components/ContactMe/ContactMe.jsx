@@ -8,7 +8,7 @@ const ContactMe = () => {
 
         <h5>Contact Me</h5>
         <div className="contact-content">
-            <div style={{ flex=1 }}>
+            <div style={{ flex:1 }}>
                 <ContactInfoCard
                 iconUrl="./assets/images/01.png"
                 text="isaack@gmail.com" />
@@ -16,7 +16,7 @@ const ContactMe = () => {
                 iconUrl="./assets/images/02.png"
                 text="https://github.com/aizooh" />
             </div>
-            <div style={{ flex=1 }}>
+            <div style={{ flex:1 }}>
                 <ContactForm/>
             </div>
         </div > 
