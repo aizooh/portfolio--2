@@ -1,29 +1,35 @@
+import frontend from '../assets/images/frontend.png';
+import backend from '../assets/images/backend.png';
+import DatabaseIcon from '../assets/images/database.png';
+import toolsIcon from '../assets/images/tools.png';
+// import otherIcon from '../assets/images/other.png';
+
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: ".\assets\images\frontend.png",
+        icon: frontend,
         skills: [
             { skills: "HTML5", percentage: "80%" },
             { skills: "CSS3", percentage: "90%" },
             { skills: "JavaScript", percentage: "75%" },
-            { skills: "React.js", percentage: "75%" } // Adjusted for CV (not explicit but implied)
+            { skills: "React.js", percentage: "75%" }
         ],
     },
     {
         title: "Backend",
-        icon: "./assets/images/backend.png",
+        icon: backend,
         skills: [
             { skills: "Python", percentage: "85%" },
             { skills: "PHP", percentage: "70%" },
             { skills: "Java", percentage: "65%" },
             { skills: "FastAPI", percentage: "60%" },
-            { skills: "Node.js", percentage: "50%" }, // If you want to keep as per your array, otherwise omit
-            { skills: "Express.js", percentage: "45%" }, // If you want to keep as per your array, otherwise omit
+            { skills: "Node.js", percentage: "50%" },
+            { skills: "Express.js", percentage: "45%" },
         ],
     },
     {
         title: "Databases",
-        icon: "",
+        icon: DatabaseIcon,
         skills: [
             { skills: "MySQL", percentage: "70%" },
             { skills: "MongoDB", percentage: "60%" },
@@ -31,7 +37,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: ".\assets\images\tools.png.png",
+        icon: toolsIcon,
         skills: [
             { skills: "Git & GitHub", percentage: "85%" },
             { skills: "Visual Studio Code", percentage: "80%" },
@@ -43,7 +49,7 @@ export const SKILLS = [
     },
     {
         title: "Other",
-        icon: "",
+        icon: ,
         skills: [
             { skills: "Responsive Design", percentage: "70%" },
             { skills: "Project Management", percentage: "65%" },

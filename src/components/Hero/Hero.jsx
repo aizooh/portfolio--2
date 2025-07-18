@@ -2,7 +2,6 @@ import React from "react";
 import "./Hero.css";
 
 import img01 from "../../assets/images/img01.png";
-import img02 from "../../assets/images/img02.png";
 import cssImg from "../../assets/images/css.png";
 import html from "../../assets/images/html.png";
 import jsImg from "../../assets/images/java script.png";
@@ -19,22 +18,21 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="Hero-img">
-        <div>
+      <div className="hero-img-and-stack">
+        <img className="profile-img" src={img01} alt="Profile" />
+        {/* Tech stack: horizontal row below the main image */}
+        <div className="tech-stack-row">
           <div className="tech-icon">
-            <img src={reactImg} alt="" />
-          </div>
-          <img src={img01} alt="" />
-        </div>
-        <div>
-          <div className="tech-icon">
-            <img scr={ jsImg } alt="" />
+            <img src={html} alt="HTML" />
           </div>
           <div className="tech-icon">
-            <img src={cssImg} alt="" />
+            <img src={cssImg} alt="CSS" />
           </div>
           <div className="tech-icon">
-            <img src={html} alt="" />
+            <img src={jsImg} alt="JavaScript" />
+          </div>
+          <div className="tech-icon">
+            <img src={reactImg} alt="React" />
           </div>
         </div>
       </div>
