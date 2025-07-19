@@ -49,7 +49,7 @@ export const SKILLS = [
     },
     {
         title: "Other",
-        icon: ,
+        icon: "",
         skills: [
             { skills: "Responsive Design", percentage: "70%" },
             { skills: "Project Management", percentage: "65%" },
