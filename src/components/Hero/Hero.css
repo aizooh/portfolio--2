@@ -1,0 +1,62 @@
+.hero-img-and-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 22rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  border: 2px solid #23234d;
+  object-fit: cover;
+}
+
+.tech-stack-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  margin-top: 1.3rem;
+  justify-content: center;
+}
+
+.tech-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #181a24;
+  border-radius: 0.8rem;
+  border: 1.5px solid #6852ba;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+.tech-icon img {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+}
+.tech-icon:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(124,102,227,0.12);
+}
+
+@media (max-width: 1025px) {
+  .profile-img { width: 15rem; }
+  .tech-icon { width: 2.7rem; height: 2.7rem; }
+  .tech-icon img { width: 1.7rem; height: 1.7rem; }
+}
+@media (max-width: 768px) {
+  .hero-img-and-stack {
+    gap: 1rem;
+  }
+  .profile-img { width: 12rem; }
+  .tech-icon { width: 2.2rem; height: 2.2rem; }
+  .tech-icon img { width: 1.2rem; height: 1.2rem; }
+  .tech-stack-row {
+    gap: 0.8rem;
+  }
+}
