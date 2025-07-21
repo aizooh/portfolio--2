@@ -2,7 +2,8 @@ import frontend from '../assets/images/frontend.png';
 import backend from '../assets/images/backend.png';
 import DatabaseIcon from '../assets/images/database.png';
 import toolsIcon from '../assets/images/tools.png';
-// import otherIcon from '../assets/images/other.png';
+import otherIcon from '../assets/images/personality-search.png';
+import profile1 from '../assets/images/profile_3135715.png';
 
 export const SKILLS = [
     {
@@ -49,7 +50,7 @@ export const SKILLS = [
     },
     {
         title: "Other",
-        icon: "",
+        icon: otherIcon,
         skills: [
             { skills: "Responsive Design", percentage: "70%" },
             { skills: "Project Management", percentage: "65%" },
@@ -58,7 +59,7 @@ export const SKILLS = [
     },
     {
         title: "Soft Skills",
-        icon: "",
+        icon: profile1,
         skills: [
             { skills: "Problem Solving", percentage: "80%" },
             { skills: "Collaboration", percentage: "85%" },

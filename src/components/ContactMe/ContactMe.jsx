@@ -28,8 +28,8 @@ const ContactMe = () => {
         <div style={{ flex:1 }}>
           <ContactInfoCard
             icon={<MailIcon />}
-            text="isaack@gmail.com"
-            link="mailto:isaack@gmail.com"
+            text="isgitundu@gmail.com"
+            link="mailto:isgitundu@gmail.com"
           />
           <ContactInfoCard
             icon={<GitHubIcon />}
