@@ -29,3 +29,38 @@
     font-size: 0.9rem;
     font-weight: 400;
 }
+/* ContactInfoCard.css */
+
+.contact-details-card {
+  display: flex;
+  align-items: center;
+  /* Add more styling for the card itself */
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  /* Style your icons */
+  font-size: 24px; /* Example for MUI icons */
+  color: #333;
+}
+
+.contact-details-card p {
+  margin: 0; /* Remove default paragraph margin */
+  color: #555; /* Default text color */
+}
+
+.contact-text-link {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Example link color (e.g., blue) */
+  font-weight: bold; /* Make it stand out */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.contact-text-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
