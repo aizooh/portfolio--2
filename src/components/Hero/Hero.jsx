@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-
-import img01 from "../../assets/images/img01.png";
+import profile from "../../assets/images/profile.jpg";
+// import img01 from "../../assets/images/img01.png";
 import cssImg from "../../assets/images/css.png";
 import html from "../../assets/images/html.png";
 import jsImg from "../../assets/images/java script.png";
@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-img-and-stack">
-        <img className="profile-img" src={img01} alt="Profile" />
+        <img className="profile-img" src={profile} alt="Profile" />
         {/* Tech stack: horizontal row below the main image */}
         <div className="tech-stack-row">
           <div className="tech-icon">
