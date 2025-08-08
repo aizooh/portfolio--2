@@ -3,6 +3,15 @@ import './Navbar.css'
 import MobileNav from "./MobileNav/MobileNav"
 
 const Navbar = () => {
+    const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: 'smooth' // This enables smooth scrolling
+      });
+    }
+  };
 
     const [openMenu, setOpenMenu]= useState(false);
     const toogleMenu=()=>{
@@ -15,10 +24,10 @@ const Navbar = () => {
         <div className="nav-content">
             <img className="logo" src="./assests/images/logo.svg" alt=""/>
 <ul>
-         <li> <a className="menu-item" href="">Home</a>     </li>  
-         <li>  <a className="menu-item">Skills</a>        </li>  
-         <li>  <a className="menu-item">Work Experience</a>       </li>  
-         <li>  <a className="menu-item">Contact Me</a> </li>  
+         <li> <a className="menu-item" onClick={() => scrollToSection('home')}>Home</a>     </li>  
+         <li>  <a className="menu-item"onClick={() => scrollToSection('skills')} >Skills</a>        </li>  
+         <li>  <a className="menu-item"onClick={() => scrollToSection('work-experience')}>Work Experience</a>       </li>  
+         <li>  <a className="menu-item"onClick={() => scrollToSection('contact-me')}>Contact Me</a> </li>  
          <button className="contact-btn" onClick={()=>{}}>
             Hire Me</button>         
          </ul>
