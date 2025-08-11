@@ -96,4 +96,17 @@ export const Work_Experience = [
             "Implemented game mechanics including collision detection and score tracking",
         ],
     },
+    {
+    title: "Expense Tracker (MERN)",
+    date: "2025",
+    responsibilities: [
+        "Developed a full-stack expense tracking application using the MERN stack (MongoDB, Express.js, React, Node.js)",
+        "Implemented user authentication and authorization for secure access",
+        "Built RESTful APIs for expense management, including add, view, delete, and export to Excel",
+        "Integrated MongoDB for persistent data storage",
+        "Created an interactive React frontend with responsive design for tracking expenses in real time",
+        "Designed API endpoints such as ADD_EXPENSE, GET_ALL_EXPENSE, DELETE_EXPENSE, and DOWNLOAD_EXCEL",
+    ],
+    link: "https://yourportfolio.com/expense-tracker"
+},
 ];
