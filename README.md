@@ -83,10 +83,10 @@ To run this portfolio locally:
 
 ## 📫 Connect With Me
 
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
+* **Email:** [isggitundu@gmail.com](mailto:isgitundu@gmail.com)
 * **GitHub:** [github.com/aizooh](https://github.com/aizooh)
-* **LinkedIn:** (your profile link)
-* **Other:** (portfolio, Twitter, etc.)
+* **LinkedIn:** ([your profile link](https://www.linkedin.com/in/isaack-gitundu))
+
 
 ---
 
@@ -98,6 +98,4 @@ I really welcome feedback, suggestions, or collaboration. Feel free to:
 * Suggest improvements (UI, code structure, performance, etc.)
 * Fork the project & send PRs
 
----
 
-If you like, I can generate a polished final version in Markdown ready to drop into your repo, tailored to your precise skills + projects. Do you want me to do that?
